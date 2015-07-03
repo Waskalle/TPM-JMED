@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project manager website platform, created for IT students">
+    <meta name="TPM" content="Tic Project Manager">
+
+    <title>TPM&trade;</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top mbg" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll mainmenu" href="#page-top">TPM</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll mainmenu" href="#about">About TPM</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll mainmenu" href="#advantages">How it works</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll mainmenu" href="#getStarted">Create an acount</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll mainmenu" href="login.html">Log in</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="title">Welcome to TPM</h1>
+                    <p class="subt">The best online platform for collaborative software development</p>
+                    <a class="btn btn-danger page-scroll mainmenu" href="#getStarted">Jump in!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="secTit">About TPM</h1>
+                    <p >When you are involved in a software development project all you
+                        want is to start coding, and that is really great, but, what about the ORDER?
+                        We know how bored is to make project documentation, but we also know is NECESSARY if you want QUALITY of development.
+                    </p>
+                    <p>TPM is a FREE web platform in which you are allowed to make you software project through the waterfall development model, using google APIS to save all your documentation and also using a monitor to know and get in control about what all your project partners are doing.</p>
+                    <p>So, let´s make the difference in a easy way, let's go to <a href="#getStarted" class="page-scroll enfasis">TPM.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="secTit">How it works</h1
+                        <br>
+                     <p class="p1">TPM is easy and useful that you can get started your project in a few steps:</p>
+                        <br>
+                <div class="sm col-3">
+                <img src="css/Images/newTeam.png" width="200" height="200">    
+                <img src="css/Images/newProj.png" width="240" height="200">  
+                <img src="css/Images/startProj.png" width="240" height="200">  
+                <img src="css/Images/getEval.png" width="240" height="200">  
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gettin' started Section -->
+    <section id="getStarted" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="secTit">Create a new TPM acount</h1>
+                    <div class="panel-body">
+                    <form accept-charset="UTF-8" role="form" action="http://localhost/opentpmw/conexiones/registra_user.php" method="post">
+                        <fieldset>
+
+                            <div class="form-group" align="left">
+                            <p>So, it is time to get started. In fact of get all the features offered by TPM, you need to sign up.</p> <br>
+
+                            <p> The are two kinds of users in TPM, [Teachers] and [Students]. Teacher users will be able to
+                                evaluate the work produced by the students.While the Student users will be able to create and 
+                                manage their projects and also teamworks.</p> <br>
+                                <div align="center">
+                                <label class="mainmenu">Kind of user: </label> <br>
+                                    <input name="radio" type="radio" value="Maestro" >&nbsp;&nbsp;&nbsp;<label class="mainmenu">Teacher</label>
+                                    <br>
+                                    <input name="radio" type="radio" value="Alumno" >&nbsp;&nbsp;&nbsp;&nbsp;<label class="mainmenu">Student</label>
+                                </div>
+                           
+                            </div>
+                            <input class="btn btn-lg btn-success btn-block mainmenu" type="submit" value="Sign up now">
+                        </fieldset>
+                    </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style navigation files:-->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+</body>
+
+</html>
